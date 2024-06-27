@@ -3,7 +3,7 @@ import "../globals.css";
 
 const HomePage = () => {
   return (
-    <div className="pt-36 min-h-screen w-full p-[4rem] " style={{ background: 'linear-gradient(to right, #AE7789 10%, #F7B6CD 30%, #F8B7D0 70%)' }}>
+    <div className="pt-36 min-h-screen w-full p-[4rem] " style={{ background: 'linear-gradient(to right, #AE7789 1%, #F7B6CD 30%, #F8B7D0 70%)' }}>
       <div className="flex flex-col lg:flex-row justify-start">
         <div className="font-[600] text-[32px] lg:text-[64px] leading-[40px] lg:leading-[79px] uppercase text-[#4428F2] w-full lg:w-[60vw] clash mb-8 lg:mb-0">
           <h1 className="text-white">
