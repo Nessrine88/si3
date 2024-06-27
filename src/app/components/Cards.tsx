@@ -130,8 +130,8 @@ const Cards = () => {
   // }, []);
 
   return (
-    <div className='flex justify-center'>
-      <div className="grid grid-cols-3 m-[4rem] gap-11">
+    <div className='md:flex md:justify-center m-5'>
+      <div className="md:grid md:grid-cols-3 md:m-[4rem] gap-11 ">
         {/* {loading ? (
           <div>Loading...</div>
         ) : (
@@ -144,7 +144,7 @@ const Cards = () => {
           ))
         )} */}
         {cardData.map((card, index) => (
-          <div key={index} className="w-[25vw] h-max-fit p-[25px] rounded-[12px] border-[2px] border-[#FAB7D0]">
+          <div key={index} className="mb-5 min-w-[25vw] h-max-fit p-[25px] rounded-[12px] border-[2px] border-[#FAB7D0]">
             <div className="flex">
               <div className="w-[87px] h-[87px]">
                 <img src={card.image} alt="black smilyFace" className='object-cover w-[100%] h-[100%] rounded-[6px]' />
