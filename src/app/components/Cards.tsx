@@ -1,8 +1,8 @@
 'use client';
-
-import React, { useState, useEffect } from 'react';
+import React from "react";
+// import React, { useState, useEffect } from 'react';
 import "../globals.css";
-import { getCards } from '../lib/cards';
+// import { getCards } from '../lib/cards';
 
 // Static array of card data
 const cardData = [
@@ -111,8 +111,8 @@ const cardData = [
 ];
 
 const Cards = () => {
-  const [cards, setCards] = useState([]);
-  const [loading, setLoading] = useState(true);
+  // const [cards, setCards] = useState([]);
+  // const [loading, setLoading] = useState(true);
 
   // useEffect(() => {
   //   const fetchCards = async () => {
