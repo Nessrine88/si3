@@ -3,7 +3,7 @@ import "../globals.css";
 
 const HomePage = () => {
   return (
-    <div className="pt-36 min-h-screen w-full p-[4rem] " style={{ background: 'linear-gradient(to right, #AE7789 1%, #F7B6CD 30%, #F8B7D0 70%)' }}>
+    <div className="pt-36 min-h-screen w-full md:p-[4rem] p-[2rem]" style={{ background: 'linear-gradient(to right, #AE7789 1%, #F7B6CD 30%, #F8B7D0 70%)' }}>
       <div className="flex flex-col lg:flex-row justify-start">
         <div className="font-[600] text-[32px] lg:text-[64px] leading-[40px] lg:leading-[79px] uppercase text-[#4428F2] w-full lg:w-[60vw] clash mb-8 lg:mb-0">
           <h1 className="text-white">
@@ -54,7 +54,7 @@ const HomePage = () => {
           />
         </div>
       </div>
-      <div className="my-8 bg-[#D574B633] bg-[url('/images/rectangle.png')] bg-no-repeat bg-cover bg-center bg-opacity-50 h-[30vh] rounded-[8px] flex flex-col justify-center items-center text-center p-4">
+      <div className=" my-8  bg-[#D574B633] bg-[url('/images/rectangle.png')] bg-no-repeat bg-cover bg-center bg-opacity-30 min-h-[30vh] rounded-[8px] flex flex-col justify-center items-center text-center p-5">
         <p className="clash text-[#4428F2] text-[20px] lg:text-[35px] font-500 leading-[30px] lg:leading-[68px] mb-4">JOIN OUR COMMON GROUND.</p>
         <p className="text-[#1C1B22] text-[14px] lg:text-[20px] leading-[20px] lg:leading-[26px] font-mono font-400 mb-4">
           If you want to get tips for UX job searching, subscribe to my UX Jetpack newsletter. <br /> View at https://uxjetpack.com/newsletter
