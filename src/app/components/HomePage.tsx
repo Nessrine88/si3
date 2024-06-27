@@ -3,8 +3,8 @@ import "../globals.css";
 
 const HomePage = () => {
   return (
-    <div className="pt-36 min-h-screen w-full md:p-[4rem] p-[2rem]" style={{ background: 'linear-gradient(to right, #AE7789 1%, #F7B6CD 30%, #F8B7D0 70%)' }}>
-      <div className="flex flex-col lg:flex-row justify-start">
+    <div className="md:pt-[9rem] pt-[9rem] min-h-screen w-full md:p-[4rem] p-[2rem]" style={{ background: 'linear-gradient(to right, #AE7789 1%, #F7B6CD 30%, #F8B7D0 70%)' }}>
+      <div className="flex flex-col lg:flex-row justify-between">
         <div className="font-[600] text-[32px] lg:text-[64px] leading-[40px] lg:leading-[79px] uppercase text-[#4428F2] w-full lg:w-[60vw] clash mb-8 lg:mb-0">
           <h1 className="text-white">
             Discover The 
@@ -13,7 +13,7 @@ const HomePage = () => {
             WOMEN & NON-BINARY WEB3 ECOSYSTEM.
           </h1>
         </div>
-        <div className="flex h-fit items-center flex-col lg:flex-row">
+        <div className="flex h-fit items-center flex-col lg:flex-row mr-[5.5rem]">
           <div className="flex items-center mb-4 lg:mb-0 mr-0 lg:mr-[50px] gap-5">
             <p className="font-mono text-white">
               Info
