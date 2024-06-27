@@ -114,25 +114,25 @@ const Cards = () => {
   const [cards, setCards] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const fetchCards = async () => {
-      try {
-        const data = await getCards();
-        setCards(data);
-      } catch (error) {
-        console.error("Error fetching cards:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchCards = async () => {
+  //     try {
+  //       const data = await getCards();
+  //       setCards(data);
+  //     } catch (error) {
+  //       console.error("Error fetching cards:", error);
+  //     } finally {
+  //       setLoading(false);
+  //     }
+  //   };
 
-    fetchCards();
-  }, []);
+  //   fetchCards();
+  // }, []);
 
   return (
     <div className='flex justify-center'>
       <div className="grid grid-cols-3 m-[4rem] gap-11">
-        {loading ? (
+        {/* {loading ? (
           <div>Loading...</div>
         ) : (
           cards.map((card, index) => (
@@ -142,7 +142,7 @@ const Cards = () => {
               <p>{card.category}</p>
             </div>
           ))
-        )}
+        )} */}
         {cardData.map((card, index) => (
           <div key={index} className="w-[25vw] h-max-fit p-[25px] rounded-[12px] border-[2px] border-[#FAB7D0]">
             <div className="flex">
